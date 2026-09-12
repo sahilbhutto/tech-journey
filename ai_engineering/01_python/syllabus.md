@@ -55,7 +55,7 @@
 ---
 
 # Phase 2: Control Flow
-
+****
 ## Conditions
 - [X] `if`
 - [X] `elif`
@@ -242,16 +242,16 @@
 ## Functional Programming
 - [X] Lambda functions
 - [X] Higher-order functions
-- [ ] Functions as objects
-- [ ] `map()`
-- [ ] `filter()`
-- [ ] `reduce()`
+- [X] Functions as objects
+- [X] `map()`
+- [X] `filter()`
+- [X] `reduce()`
 
 ## Recursion
-- [ ] Recursion concepts
-- [ ] Base case
-- [ ] Recursive case
-- [ ] Recursive functions
+- [X] Recursion concepts
+- [X] Base case
+- [X] Recursive case
+- [X] Recursive functions
 
 ---
 
