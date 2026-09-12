@@ -24,14 +24,14 @@
 
 ## 1.1 Relational Model
 
-- [ ] Relational model
-- [ ] Relation
-- [ ] Tuple
-- [ ] Attribute
-- [ ] Domain
-- [ ] Schema
-- [ ] Instance
-- [ ] Relational algebra basics
+- [X] Relational model
+- [X] Relation
+- [X] Tuple
+- [X] Attribute
+- [X] Domain
+- [X] Schema
+- [X] Instance
+- [X] Relational algebra basics
 
 ## 1.2 Keys
 
