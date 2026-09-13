@@ -258,26 +258,26 @@
 # Phase 7: Modules & Packages
 
 ## Modules
-- [ ] What is a module?
-- [ ] Importing modules
-- [ ] `import`
-- [ ] `from ... import`
-- [ ] Aliases
-- [ ] `__name__`
-- [ ] `__main__`
+- [X] What is a module?
+- [X] Importing modules
+- [X] `import`
+- [X] `from ... import`
+- [X] Aliases
+- [X] `__name__`
+- [X] `__main__`
 
 ## Standard Library
-- [ ] `math`
-- [ ] `random`
-- [ ] `datetime`
-- [ ] `os`
-- [ ] `sys`
-- [ ] `pathlib`
-- [ ] `json`
-- [ ] `re`
-- [ ] `collections`
-- [ ] `itertools`
-- [ ] `functools`
+- [X] `math`
+- [X] `random`
+- [X] `datetime`
+- [X] `os`
+- [X] `sys`
+- [X] `pathlib`
+- [X] `json`
+- [X] `re`
+- [X] `collections`
+- [X] `itertools`
+- [X] `functools`
 
 ## Packages
 - [ ] Package structure
