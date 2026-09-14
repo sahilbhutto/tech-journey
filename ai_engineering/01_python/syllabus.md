@@ -280,12 +280,12 @@
 - [X] `functools`
 
 ## Packages
-- [ ] Package structure
-- [ ] `__init__.py`
-- [ ] Subpackages
-- [ ] Absolute imports
-- [ ] Relative imports
-- [ ] Import paths
+- [X] Package structure
+- [X] `__init__.py`
+- [X] Subpackages
+- [X] Absolute imports
+- [X] Relative imports
+- [X] Import paths
 
 ---
 
