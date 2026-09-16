@@ -292,26 +292,26 @@
 # Phase 8: Object-Oriented Programming
 
 ## OOP Fundamentals
-- [ ] Classes
-- [ ] Objects
-- [ ] Attributes
-- [ ] Methods
-- [ ] `self`
-- [ ] `__init__()`
+- [X] Classes
+- [X] Objects
+- [X] Attributes
+- [X] Methods
+- [X] `self`
+- [X] `__init__()`
 
 ## Encapsulation
-- [ ] Public attributes
-- [ ] Protected convention
-- [ ] Private convention
-- [ ] Properties
+- [X] Public attributes
+- [X] Protected convention
+- [X] Private convention
+- [X] Properties
 
 ## Inheritance
-- [ ] Parent classes
-- [ ] Child classes
-- [ ] Method overriding
-- [ ] `super()`
-- [ ] Multiple inheritance
-- [ ] Method Resolution Order (MRO)
+- [X] Parent classes
+- [X] Child classes
+- [X] Method overriding
+- [X] `super()`
+- [X] Multiple inheritance
+- [X] Method Resolution Order (MRO)
 
 ## Polymorphism
 - [ ] Duck typing
@@ -341,7 +341,35 @@
 
 ---
 
-# Phase 9: Error Handling & Debugging
+# Phase 09: File & Directory Handling
+
+## Files
+- [ ] Open files
+- [ ] Read files
+- [ ] Write files
+- [ ] Append files
+- [ ] File modes
+- [ ] Encoding
+- [ ] Context managers
+
+## `pathlib`
+- [ ] Paths
+- [ ] Files
+- [ ] Directories
+- [ ] Create directories
+- [ ] Rename files
+- [ ] Delete files
+- [ ] Search directories
+
+## File Formats
+- [ ] TXT
+- [ ] CSV
+- [ ] JSON
+- [ ] Basic XML handling
+
+---
+
+# Phase 10: Error Handling & Debugging
 
 ## Exceptions
 - [ ] Exceptions
@@ -368,34 +396,6 @@
 - [ ] Step into
 - [ ] Step out
 - [ ] Watch variables
-
----
-
-# Phase 10: File & Directory Handling
-
-## Files
-- [ ] Open files
-- [ ] Read files
-- [ ] Write files
-- [ ] Append files
-- [ ] File modes
-- [ ] Encoding
-- [ ] Context managers
-
-## `pathlib`
-- [ ] Paths
-- [ ] Files
-- [ ] Directories
-- [ ] Create directories
-- [ ] Rename files
-- [ ] Delete files
-- [ ] Search directories
-
-## File Formats
-- [ ] TXT
-- [ ] CSV
-- [ ] JSON
-- [ ] Basic XML handling
 
 ---
 
