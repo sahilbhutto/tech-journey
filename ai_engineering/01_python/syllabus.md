@@ -314,30 +314,30 @@
 - [X] Method Resolution Order (MRO)
 
 ## Polymorphism
-- [ ] Duck typing
-- [ ] Method overriding
-- [ ] Operator overloading
+- [X] Duck typing
+- [X] Method overriding
+- [X] Operator overloading
 
 ## Abstraction
-- [ ] Abstract classes
-- [ ] `abc`
-- [ ] Abstract methods
+- [X] Abstract classes
+- [X] `abc`
+- [X] Abstract methods
 
 ## Special Methods
-- [ ] `__str__()`
-- [ ] `__repr__()`
-- [ ] `__len__()`
-- [ ] `__eq__()`
-- [ ] `__lt__()`
-- [ ] `__contains__()`
-- [ ] `__call__()`
+- [X] `__str__()`
+- [X] `__repr__()`
+- [X] `__len__()`
+- [X] `__eq__()`
+- [X] `__lt__()`
+- [X] `__contains__()`
+- [X] `__call__()`
 
 ## Class Features
-- [ ] Class attributes
-- [ ] Instance attributes
-- [ ] Class methods
-- [ ] Static methods
-- [ ] Properties
+- [X] Class attributes
+- [X] Instance attributes
+- [X] Class methods
+- [X] Static methods
+- [X] Properties
 
 ---
 
