@@ -344,28 +344,28 @@
 # Phase 09: File & Directory Handling
 
 ## Files
-- [ ] Open files
-- [ ] Read files
-- [ ] Write files
-- [ ] Append files
-- [ ] File modes
-- [ ] Encoding
-- [ ] Context managers
+- [X] Open files
+- [X] Read files
+- [X] Write files
+- [X] Append files
+- [X] File modes
+- [X] Encoding
+- [X] Context managers
 
 ## `pathlib`
-- [ ] Paths
-- [ ] Files
-- [ ] Directories
-- [ ] Create directories
-- [ ] Rename files
-- [ ] Delete files
-- [ ] Search directories
+- [X] Paths
+- [X] Files
+- [X] Directories
+- [X] Create directories
+- [X] Rename files
+- [X] Delete files
+- [X] Search directories
 
 ## File Formats
-- [ ] TXT
-- [ ] CSV
-- [ ] JSON
-- [ ] Basic XML handling
+- [X] TXT
+- [X] CSV
+- [X] JSON
+- [X] Basic XML handling
 
 ---
 
