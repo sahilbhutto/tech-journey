@@ -372,30 +372,30 @@
 # Phase 10: Error Handling & Debugging
 
 ## Exceptions
-- [ ] Exceptions
-- [ ] Common exception types
-- [ ] `try`
-- [ ] `except`
-- [ ] `else`
-- [ ] `finally`
-- [ ] Multiple exceptions
-- [ ] Exception chaining
+- [X] Exceptions
+- [X] Common exception types
+- [X] `try`
+- [X] `except`
+- [X] `else`
+- [X] `finally`
+- [X] Multiple exceptions
+- [X] Exception chaining
 
 ## Raising Exceptions
-- [ ] `raise`
-- [ ] Custom exceptions
-- [ ] Exception hierarchy
-- [ ] `assert`
+- [X] `raise`
+- [X] Custom exceptions
+- [X] Exception hierarchy
+- [X] `assert`
 
 ## Debugging
-- [ ] Read tracebacks
-- [ ] Debugging strategies
-- [ ] VS Code debugger
-- [ ] Breakpoints
-- [ ] Step over
-- [ ] Step into
-- [ ] Step out
-- [ ] Watch variables
+- [X] Read tracebacks
+- [X] Debugging strategies
+- [X] VS Code debugger
+- [X] Breakpoints
+- [X] Step over
+- [X] Step into
+- [X] Step out
+- [X] Watch variables
 
 ---
 
