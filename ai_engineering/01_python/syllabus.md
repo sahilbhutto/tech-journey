@@ -402,19 +402,19 @@
 # Phase 11: Iterators & Generators
 
 ## Iterators
-- [ ] Iterable objects
-- [ ] Iterator objects
-- [ ] `iter()`
-- [ ] `next()`
-- [ ] Custom iterators
+- [X] Iterable objects
+- [X] Iterator objects
+- [X] `iter()`
+- [X] `next()`
+- [X] Custom iterators
 
 ## Generators
-- [ ] `yield`
-- [ ] Generator functions
-- [ ] Generator expressions
-- [ ] Lazy evaluation
-- [ ] Memory-efficient iteration
-- [ ] `yield from`
+- [X] `yield`
+- [X] Generator functions
+- [X] Generator expressions
+- [X] Lazy evaluation
+- [X] Memory-efficient iteration
+- [X] `yield from`
 
 ---
 
