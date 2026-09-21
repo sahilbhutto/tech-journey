@@ -1,38 +1,47 @@
 
-def calculate(num1, num2, opt):
+# ITERATOR EXAMPLE
+class Countdown:
 
-    match opt:
-        case "+":
-            return num1 + num2
+    def __init__(self, current):
+        self.current = current
 
-        case "-":
-            return num1 - num2
+    def __iter__(self):
+        return self
 
-        case "*":
-            return num1 * num2
+    def __next__(self):
 
-        case "/":
-            return num1 / num2
+        if self.current <= 0:
+            raise StopIteration
 
-        case _:
-            raise ValueError("Invalid operation")
+        value = self.current
+
+        self.current -= 1
+
+        return value
+
+countdown = Countdown(5)
+
+print("\n ======= Iterator Example =======")
+for number in countdown:
+    print(number)
 
 
-try:
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
-    opt = input("Enter operation: +, -, *, /: ")
+print("\n ======= Generator Example =======")
 
-    result = calculate(num1, num2, opt)
+# GENERATOR EXAMPLE
 
-except ValueError as error:
-    print(error)
+def first():
 
-except ZeroDivisionError:
-    print("Cannot divide by zero.")
+    yield 1
+    yield 2
 
-else:
-    print("\nResult:", result)
+def second():
+    yield 3
+    yield 4
 
-finally:
-    print("=== Program End ===")
+def all_numbers():
+    yield from first()
+    yield from second()
+
+for number in all_numbers():
+    print(number)
