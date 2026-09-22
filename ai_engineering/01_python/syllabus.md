@@ -421,14 +421,14 @@
 # Phase 12: Decorators & Context Managers
 
 ## Decorators
-- [ ] What are decorators?
-- [ ] Function decorators
-- [ ] Nested functions
-- [ ] Closures
-- [ ] `*args` / `**kwargs`
-- [ ] `functools.wraps`
-- [ ] Parameterized decorators
-- [ ] Class decorators
+- [X] What are decorators?
+- [X] Function decorators
+- [X] Nested functions
+- [X] Closures
+- [X] `*args` / `**kwargs`
+- [X] `functools.wraps`
+- [X] Parameterized decorators
+- [X] Class decorators
 
 ## Context Managers
 - [ ] `with`
