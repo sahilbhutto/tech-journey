@@ -1,47 +1,35 @@
 
-# ITERATOR EXAMPLE
-class Countdown:
-
-    def __init__(self, current):
-        self.current = current
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-
-        if self.current <= 0:
-            raise StopIteration
-
-        value = self.current
-
-        self.current -= 1
-
-        return value
-
-countdown = Countdown(5)
-
-print("\n ======= Iterator Example =======")
-for number in countdown:
-    print(number)
+from functools import wraps
 
 
-print("\n ======= Generator Example =======")
+def logger(func):
 
-# GENERATOR EXAMPLE
+    @wraps(func)
+    def wrapper(*args, **kwargs):
 
-def first():
+        print(f"Calling: {func.__name__}")
+        print(f"Arguments: {args}")
+        print(f"Keyword Arguments: {kwargs}")
 
-    yield 1
-    yield 2
+        result = func(*args, **kwargs)
 
-def second():
-    yield 3
-    yield 4
+        print(f"Result: {result}")
 
-def all_numbers():
-    yield from first()
-    yield from second()
+        return result
 
-for number in all_numbers():
-    print(number)
+    return wrapper
+
+
+@logger
+def create_user(name, age, role="user"):
+    return {
+        "name": name,
+        "age": age,
+        "role": role
+    }
+
+
+user = create_user("Sahil", 21, role="developer")
+
+print("\nUser:")
+print(user)
