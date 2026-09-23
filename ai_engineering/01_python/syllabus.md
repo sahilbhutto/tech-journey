@@ -431,12 +431,12 @@
 - [X] Class decorators
 
 ## Context Managers
-- [ ] `with`
-- [ ] Context manager protocol
-- [ ] `__enter__()`
-- [ ] `__exit__()`
-- [ ] `contextlib`
-- [ ] Custom context managers
+- [X] `with`
+- [X] Context manager protocol
+- [X] `__enter__()`
+- [X] `__exit__()`
+- [X] `contextlib`
+- [X] Custom context managers
 
 ---
 
