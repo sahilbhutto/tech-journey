@@ -443,28 +443,28 @@
 # Phase 13: Functional & Advanced Python
 
 ## Functional Concepts
-- [ ] First-class functions
-- [ ] Higher-order functions
-- [ ] Closures
-- [ ] Pure functions
-- [ ] Functional composition
+- [X] First-class functions
+- [X] Higher-order functions
+- [X] Closures
+- [X] Pure functions
+- [X] Functional composition
 
 ## Advanced Built-ins
-- [ ] `map()`
-- [ ] `filter()`
-- [ ] `reduce()`
-- [ ] `iter()`
-- [ ] `next()`
-- [ ] `property()`
-- [ ] `staticmethod()`
-- [ ] `classmethod()`
+- [X] `map()`
+- [X] `filter()`
+- [X] `reduce()`
+- [X] `iter()`
+- [X] `next()`
+- [X] `property()`
+- [X] `staticmethod()`
+- [X] `classmethod()`
 
 ## Standard Library
-- [ ] `collections`
-- [ ] `collections.abc`
-- [ ] `itertools`
-- [ ] `functools`
-- [ ] `operator`
+- [X] `collections`
+- [X] `collections.abc`
+- [X] `itertools`
+- [X] `functools`
+- [X] `operator`
 
 ---
 
