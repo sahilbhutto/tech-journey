@@ -471,13 +471,13 @@
 # Phase 14: Concurrency & Async Python
 
 ## Async Fundamentals
-- [ ] Synchronous programming
-- [ ] Asynchronous programming
-- [ ] Concurrency concepts
-- [ ] `async`
-- [ ] `await`
-- [ ] Coroutines
-- [ ] Event loop
+- [X] Synchronous programming
+- [X] Asynchronous programming
+- [X] Concurrency concepts
+- [X] `async`
+- [X] `await`
+- [X] Coroutines
+- [X] Event loop
 
 ## `asyncio`
 - [ ] `asyncio.run()`
@@ -486,7 +486,7 @@
 - [ ] `asyncio.gather()`
 - [ ] Timeouts
 - [ ] Cancellation
-- [ ] Async context managers
+- [ ] Async context  managers
 
 ## Threads
 - [ ] Threading concepts
