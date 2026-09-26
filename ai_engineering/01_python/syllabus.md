@@ -480,26 +480,26 @@
 - [X] Event loop
 
 ## `asyncio`
-- [ ] `asyncio.run()`
-- [ ] Tasks
-- [ ] Futures
-- [ ] `asyncio.gather()`
-- [ ] Timeouts
-- [ ] Cancellation
-- [ ] Async context  managers
+- [X] `asyncio.run()`
+- [X] Tasks
+- [X] Futures
+- [X] `asyncio.gather()`
+- [X] Timeouts
+- [X] Cancellation
+- [X] Async context  managers
 
 ## Threads
-- [ ] Threading concepts
-- [ ] `threading`
-- [ ] Thread creation
-- [ ] Thread synchronization
-- [ ] Locks
+- [X] Threading concepts
+- [X] `threading`
+- [X] Thread creation
+- [X] Thread synchronization
+- [X] Locks
 
 ## Processes
-- [ ] Multiprocessing
-- [ ] Process creation
-- [ ] Process pools
-- [ ] CPU-bound vs I/O-bound tasks
+- [X] Multiprocessing
+- [X] Process creation
+- [X] Process pools
+- [X] CPU-bound vs I/O-bound tasks
 
 ---
 
