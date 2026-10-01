@@ -502,19 +502,20 @@
 - [X] CPU-bound vs I/O-bound tasks
 
 ---
-
+**
 # Phase 15: Python Package & Project Management
 
 ## Virtual Environments
-- [ ] `venv`
-- [ ] Create environment
-- [ ] Activate environment
-- [ ] Deactivate environment
-- [ ] `.gitignore`
+- [X] `venv`
+- [X] Create environment
+- [X] Activate environment
+- [X] Deactivate environment
+- [X] `.gitignore`
 
 ## Package Management
-- [ ] `pip`
-- [ ] Install packages
-- [ ] Upgrade packages
-- [ ] Uninstall packages
-- [ ] Requirements files
+- [X] `pip`
+- [X] Install packages
+- [X] Upgrade packages
+- [X] Uninstall packages
+- [X] Requirements files
+
