@@ -5,33 +5,33 @@
 ## 1.1 Understanding FastAPI
 
 * [X] What is FastAPI?
-* [ ] FastAPI vs Flask vs Django
-* [ ] ASGI vs WSGI
-* [ ] Uvicorn
-* [ ] Starlette
-* [ ] Pydantic
-* [ ] FastAPI request/response lifecycle
-* [ ] Type hints in FastAPI
+* [X] FastAPI vs Flask vs Django
+* [X] ASGI vs WSGI
+* [X] Uvicorn
+* [X] Starlette
+* [X] Pydantic
+* [X] FastAPI request/response lifecycle
+* [X] Type hints in FastAPI
 
 ## 1.2 Project Setup
 
-* [ ] Python virtual environment
-* [ ] Install FastAPI
-* [ ] Install Uvicorn
-* [ ] Basic project structure
-* [ ] Run development server
-* [ ] `--reload`
-* [ ] Environment configuration basics
+* [X] Python virtual environment
+* [X] Install FastAPI
+* [X] Install Uvicorn
+* [X] Basic project structure
+* [X] Run development server
+* [X] `--reload`
+* [X] Environment configuration basics
 
 ## 1.3 First API
 
-* [ ] Create `FastAPI()` application
-* [ ] First route
-* [ ] HTTP methods
-* [ ] Path operations
-* [ ] `/docs`
-* [ ] `/redoc`
-* [ ] OpenAPI basics
+* [X] Create `FastAPI()` application
+* [X] First route
+* [X] HTTP methods
+* [X] Path operations
+* [X] `/docs`
+* [X] `/redoc`
+* [X] OpenAPI basics
 
 ---
 
