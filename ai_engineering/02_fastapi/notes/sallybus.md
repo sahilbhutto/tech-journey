@@ -31,7 +31,6 @@
 * [X] Path operations
 * [X] `/docs`
 * [X] `/redoc`
-* [X] OpenAPI basics
 
 ---
 
@@ -39,32 +38,32 @@
 
 ## 2.1 HTTP Methods
 
-* [ ] GET
-* [ ] POST
-* [ ] PUT
-* [ ] PATCH
-* [ ] DELETE
+* [X] GET
+* [X] POST
+* [X] PUT
+* [X] PATCH
+* [X] DELETE
 
 ## 2.2 Path Parameters
 
-* [ ] Basic path parameters
-* [ ] Typed path parameters
-* [ ] Multiple path parameters
-* [ ] Validation
-* [ ] Enum path parameters
+* [X] Basic path parameters
+* [X] Typed path parameters
+* [X] Multiple path parameters
+* [X] Validation
+* [X] Enum path parameters
 
 ## 2.3 Query Parameters
 
-* [ ] Basic query parameters
-* [ ] Optional parameters
-* [ ] Default values
-* [ ] Typed query parameters
-* [ ] Required query parameters
-* [ ] Query validation
-* [ ] Pagination parameters
-* [ ] Filtering
-* [ ] Sorting
-* [ ] Searching
+* [X] Basic query parameters
+* [X] Optional parameters
+* [X] Default values
+* [X] Typed query parameters
+* [X] Required query parameters
+* [X] Query validation
+* [X] Pagination parameters
+* [X] Filtering
+* [X] Sorting
+* [X] Searching
 
 ---
 
@@ -72,15 +71,15 @@
 
 ## 3.1 Request Bodies
 
-* [ ] JSON request body
-* [ ] Pydantic models
-* [ ] Nested models
-* [ ] Optional fields
-* [ ] Default values
-* [ ] Field validation
-* [ ] Custom validation
-* [ ] Request body + path parameters
-* [ ] Request body + query parameters
+* [X] JSON request body
+* [X] Pydantic models
+* [X] Nested models
+* [X] Optional fields
+* [X] Default values
+* [X] Field validation
+* [X] Custom validation
+* [X] Request body + path parameters
+* [X] Request body + query parameters
 
 ## 3.2 Response Models
 
