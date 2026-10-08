@@ -80,31 +80,31 @@
 * [X] Custom validation
 * [X] Request body + path parameters
 * [X] Request body + query parameters
-
+****
 ## 3.2 Response Models
 
-* [ ] `response_model`
-* [ ] Response validation
-* [ ] Nested response models
-* [ ] Optional response fields
-* [ ] Excluding fields
-* [ ] Input model vs output model
-* [ ] Preventing sensitive fields from being returned
+* [X] `response_model`
+* [X] Response validation
+* [X] Nested response models
+* [X] Optional response fields
+* [X] Excluding fields
+* [X] Input model vs output model
+* [X] Preventing sensitive fields from being returned
 
 ## 3.3 Status Codes
 
-* [ ] HTTP status codes
-* [ ] `status_code`
-* [ ] 200
-* [ ] 201
-* [ ] 204
-* [ ] 400
-* [ ] 401
-* [ ] 403
-* [ ] 404
-* [ ] 409
-* [ ] 422
-* [ ] 500
+* [X] HTTP status codes
+* [X] `status_code`
+* [X] 200
+* [x] 201
+* [X] 204
+* [X] 400
+* [X] 401
+* [X] 403
+* [X] 404
+* [X] 409
+* [X] 422
+* [X] 500
 
 ---
 
@@ -112,27 +112,27 @@
 
 ## 4.1 Pydantic
 
-* [ ] Pydantic models
-* [ ] Pydantic field types
-* [ ] `Field()`
-* [ ] Constraints
-* [ ] Nested models
-* [ ] Lists and dictionaries
-* [ ] Enums
-* [ ] Custom validators
-* [ ] Model validators
-* [ ] Serialization
-* [ ] Deserialization
+* [X] Pydantic models
+* [X] Pydantic field types
+* [X] `Field()`
+* [X] Constraints
+* [X] Nested models
+* [X] Lists and dictionaries
+* [X] Enums
+* [X] Custom validators
+* [X] Model validators
+* [X] Serialization
+* [X] Deserialization
 
 ## 4.2 Error Handling
 
-* [ ] `HTTPException`
-* [ ] Custom error responses
-* [ ] Request validation errors
-* [ ] Exception handlers
-* [ ] Global exception handling
-* [ ] Custom exception classes
-* [ ] Consistent API error format
+* [X] `HTTPException`
+* [X] Custom error responses
+* [X] Request validation errors
+* [X] Exception handlers
+* [X] Global exception handling
+* [X] Custom exception classes
+* [X] Consistent API error format
 
 ---
 
@@ -140,14 +140,14 @@
 
 ## 5.1 Dependencies
 
-* [ ] What is Dependency Injection?
-* [ ] `Depends()`
-* [ ] Function dependencies
-* [ ] Shared dependencies
-* [ ] Nested dependencies
-* [ ] Dependency parameters
-* [ ] Dependency lifecycle
-* [ ] Dependency overrides
+* [X] What is Dependency Injection?
+* [X] `Depends()`
+* [X] Function dependencies
+* [X] Shared dependencies
+* [X] Nested dependencies
+* [X] Dependency parameters
+* [X] Dependency lifecycle
+* [X] Dependency overrides
 
 ## 5.2 Real-World Dependencies
 
@@ -514,105 +514,6 @@
 * [ ] Deployment pipeline
 * [ ] Environment secrets
 * [ ] Production deployment
-
----
-
-# Phase 18 — AI/LLM APIs
-
-## 18.1 AI API Fundamentals
-
-* [ ] FastAPI + OpenAI
-* [ ] FastAPI + Gemini
-* [ ] FastAPI + Claude
-* [ ] API key management
-* [ ] Prompt handling
-* [ ] Structured outputs
-
-## 18.2 AI Streaming
-
-* [ ] Streaming responses
-* [ ] Server-Sent Events
-* [ ] Token streaming
-* [ ] Streaming AI responses
-* [ ] Frontend streaming integration
-
-## 18.3 AI API Architecture
-
-* [ ] AI service layer
-* [ ] Model abstraction
-* [ ] Provider switching
-* [ ] Retry handling
-* [ ] Token usage tracking
-* [ ] Cost tracking
-* [ ] AI request logging
-
----
-
-# Phase 19 — RAG Backend
-
-* [ ] RAG architecture
-* [ ] Document upload API
-* [ ] Document parsing
-* [ ] Chunking
-* [ ] Embeddings
-* [ ] Vector databases
-* [ ] PostgreSQL + pgvector
-* [ ] Similarity search
-* [ ] Retrieval pipeline
-* [ ] Context construction
-* [ ] RAG API
-* [ ] Streaming RAG responses
-* [ ] RAG evaluation
-
----
-
-# Phase 20 — Agent & Automation APIs
-
-* [ ] Agent architecture
-* [ ] Tool calling
-* [ ] Function calling
-* [ ] Agent state
-* [ ] Agent memory
-* [ ] Multi-step workflows
-* [ ] Human-in-the-loop
-* [ ] Background agents
-* [ ] Agent job queues
-* [ ] Long-running tasks
-* [ ] Webhooks
-* [ ] Automation APIs
-
----
-
-# Phase 21 — MCP & Modern AI Backends
-
-* [ ] MCP fundamentals
-* [ ] MCP server concepts
-* [ ] MCP tools
-* [ ] MCP resources
-* [ ] FastAPI + MCP
-* [ ] Authentication for MCP
-* [ ] Secure tool execution
-* [ ] External service integration
-
----
-
-# Phase 22 — Production AI Systems
-
-* [ ] AI SaaS architecture
-* [ ] Multi-user AI applications
-* [ ] Multi-tenancy
-* [ ] Usage limits
-* [ ] AI quotas
-* [ ] Billing integration
-* [ ] Subscription management
-* [ ] AI cost controls
-* [ ] Rate limiting
-* [ ] Prompt security
-* [ ] AI abuse prevention
-* [ ] Observability
-* [ ] AI evaluation
-* [ ] Model fallback
-* [ ] Production reliability
 
 ---
 
