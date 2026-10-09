@@ -1,26 +1,22 @@
-from fastapi import FastAPI, Depends  # type: ignore
+from fastapi import FastAPI, Request # type: ignore
+from fastapi.responses import JSONResponse # type: ignore
 
 app = FastAPI()
 
-def get_current_user():
-    user = {
-        "id": 101,
-        "name": "Sahil",
-        "role": "developer"
-    }
+SECRET_TOKEN = "my-secret-token"
 
-    return user
+@app.middleware("http")
+async def auth_middleware(request: Request, call_next):
+    token = request.headers.get("Authorization")
+
+    if token != SECRET_TOKEN:
+        return JSONResponse(
+            status_code=401,
+            content={"detail": "Unauthorized"}
+        )
+
+    return await call_next(request)
 
 @app.get("/profile")
-def get_profile(user=Depends(get_current_user)):
-    return {
-        "message": "Profile accessed successfully",
-        "user": user
-    }
-
-@app.get("/orders")
-def get_orders(user=Depends(get_current_user)):
-    return {
-        "user_id": user["id"],
-        "orders": ["Order 1", "Order 2"]
-    }
+def profile():
+    return {"message": "Welcome to your profile!"}

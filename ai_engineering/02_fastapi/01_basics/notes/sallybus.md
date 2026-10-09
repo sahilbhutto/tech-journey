@@ -151,12 +151,12 @@
 
 ## 5.2 Real-World Dependencies
 
-* [ ] Database session dependency
-* [ ] Authentication dependency
-* [ ] Current-user dependency
-* [ ] Permission dependency
-* [ ] Configuration dependency
-* [ ] Service dependencies
+* [X] Database session dependency
+* [X] Authentication dependency
+* [X] Current-user dependency
+* [X] Permission dependency
+* [X] Configuration dependency
+* [X] Service dependencies
 
 ---
 
@@ -322,13 +322,13 @@
 
 ## 11.1 Middleware
 
-* [ ] Middleware concept
-* [ ] Custom middleware
-* [ ] Request timing
-* [ ] Request logging
-* [ ] Authentication middleware
-* [ ] CORS middleware
-* [ ] Trusted host middleware
+* [X] Middleware concept
+* [X] Custom middleware
+* [X] Request timing
+* [X] Request logging
+* [X] Authentication middleware
+* [X] CORS middleware
+* [X] Trusted host middleware
 
 ## 11.2 Lifespan
 
