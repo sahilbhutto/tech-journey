@@ -1,597 +1,751 @@
-#  FastAPI Full Stack Mastery
+# FastAPI Full Stack Mastery
 
 
-##  SECTION 1: INTRODUCTION TO FASTAPI & SETUP
+## PHASE 01 — FASTAPI FUNDAMENTALS
 
-- [ ] FastAPI course introduction
+### 01. Introduction & Setup
+
+- [ ] FastAPI Course Introduction
 - [ ] What is FastAPI?
-- [ ] Why use FastAPI?
-- [ ] FastAPI features
-- [ ] Installing FastAPI
-- [ ] Creating a virtual environment
-- [ ] Running the FastAPI server
-- [ ] Understanding `uvicorn`
-- [ ] First FastAPI application
-- [ ] Automatic API documentation
-- [ ] Swagger UI
-- [ ] ReDoc
-
-## SECTION 2: ROUTING & HTTP METHODS
-
-- [ ] `GET`
-- [ ] `POST`
-- [ ] `PUT`
-- [ ] `PATCH`
-- [ ] `DELETE`
-- [ ] Route decorators
-- [ ] Path parameters
-- [ ] Query parameters
-- [ ] Request bodies
-- [ ] Status codes
-- [ ] Response data
-
+- [ ] Why Use FastAPI?
+- [ ] Setting Up the Development Environment
+- [ ] Your First FastAPI Application
+- [ ] FastAPI Clean Folder Structure
+- [ ] Auto-Generated FastAPI Documentation
+- [ ] Download Source Code
+- [ ] Run a FastAPI Project
 
 ---
 
-##  SECTION 3: PYDANTIC & DATA VALIDATION
+## PHASE 02 — ROUTING & PARAMETERS
 
-###  IMPORTANT — COVER PROPERLY
+### 02. Path Parameters & HTTP Methods
 
-- [ ] What is Pydantic?
-- [ ] `BaseModel`
-- [ ] Request models
-- [ ] Response models
-- [ ] Type validation
-- [ ] `Field()`
-- [ ] Default values
-- [ ] Optional fields
-- [ ] Required fields
-- [ ] String validation
-- [ ] Number validation
-- [ ] Email validation
-- [ ] Nested models
-- [ ] Lists of models
-- [ ] Custom validation concepts
-
-### Professional Schema Design
-
-- [ ] Create schema
-- [ ] Update schema
-- [ ] Response schema
-- [ ] Avoid exposing sensitive fields
-- [ ] Separate database models from API schemas
+- [ ] Path Parameters
+- [ ] Path Parameters with Types
+- [ ] Path Parameter Order
+- [ ] Predefined Path Parameter Values
+- [ ] Path Converters
+- [ ] HTTP Methods
+- [ ] CRUD API
+- [ ] Query Parameters
+- [ ] Response Status Codes
+- [ ] Query Parameter Validation
+- [ ] Path Parameter Validation
 
 ---
 
-##  SECTION 4: DEPENDENCY INJECTION
+## PHASE 03 — REQUEST BODY & PYDANTIC
 
-### VERY IMPORTANT
+### 03. Request Body Validation
 
-- [ ] What is Dependency Injection?
-- [ ] `Depends()`
-- [ ] Creating dependencies
-- [ ] Database session dependency
-- [ ] Reusable dependencies
-- [ ] Dependency with parameters
-- [ ] Dependency chains
-- [ ] Authentication dependency
-- [ ] Current user dependency
-- [ ] Authorization dependency
-
-### Practice
-
-- [ ] Create `get_db()`
-- [ ] Inject database session
-- [ ] Create `get_current_user()`
-- [ ] Protect routes
+- [ ] Request Body
+- [ ] Pydantic Models
+- [ ] Validate Request Body
+- [ ] Multiple Body Parameters
+- [ ] Pydantic `Field`
+- [ ] Nested Pydantic Models
+- [ ] Request Body Example Values
 
 ---
 
-## SECTION 5: ERROR HANDLING
+## PHASE 04 — COOKIES & HEADERS
 
-### IMPORTANT
+### 04. Cookie Parameters
+
+- [ ] Cookie Parameters
+- [ ] Cookie Parameters with Pydantic Models
+
+### 05. Header Parameters
+
+- [ ] Header Parameters
+- [ ] Header Parameters with Pydantic Models
+
+---
+
+## PHASE 05 — RESPONSE HANDLING
+
+### 06. Response Models
+
+- [ ] Return Type Annotations
+- [ ] Response Models
+- [ ] Include Specific Fields
+- [ ] Exclude Specific Fields
+
+---
+
+## PHASE 06 — FORMS & FILE UPLOADS
+
+### 07. Form Data
+
+- [ ] Handle Form Data
+- [ ] Form Data with Pydantic Models
+
+### 08. File Uploads
+
+- [ ] Single File Upload
+- [ ] Multiple File Uploads
+- [ ] Form Fields with File Uploads
+
+---
+
+## PHASE 07 — EXCEPTION HANDLING
+
+### 09. Error Handling
 
 - [ ] `HTTPException`
-- [ ] HTTP status codes
-- [ ] Custom exceptions
-- [ ] Exception handlers
-- [ ] Validation errors
-- [ ] Database error handling
-- [ ] Consistent error responses
-
-### Practice
-
-Handle:
-
-- [ ] User not found
-- [ ] Duplicate email
-- [ ] Invalid credentials
-- [ ] Unauthorized user
-- [ ] Forbidden action
+- [ ] Custom Headers
+- [ ] Custom Exceptions
+- [ ] Custom Exception Handlers
+- [ ] Override Default Exception Handlers
 
 ---
 
-## SECTION 6: ASYNC PROGRAMMING
+## PHASE 08 — SQLALCHEMY CORE
 
-### VERY IMPORTANT
+### 10. SQLAlchemy Introduction
 
-- [ ] What is synchronous programming?
-- [ ] What is asynchronous programming?
-- [ ] `async def`
-- [ ] `await`
-- [ ] Event loop concept
-- [ ] Blocking vs non-blocking
-- [ ] When to use `def`
-- [ ] When to use `async def`
-- [ ] Async database operations
-- [ ] Common async mistakes
+- [ ] Introduction to SQLAlchemy
+- [ ] SQLAlchemy APIs
+- [ ] Install SQLAlchemy
+- [ ] Create Database Engine
+- [ ] Create Database Tables
 
----
+### 11. Database Relationships
 
-## SECTION 7: SQLALCHEMY ORM FUNDAMENTALS
+- [ ] One-to-One Relationship
+- [ ] One-to-Many Relationship
+- [ ] Many-to-Many Relationship
 
-### HIGHEST PRIORITY
+### 12. Database Operations
 
-### ORM Basics
-
-- [ ] What is an ORM?
-- [ ] SQLAlchemy architecture
-- [ ] Engine
-- [ ] Database connection
-- [ ] Declarative models
-- [ ] `Base`
-- [ ] Tables
-- [ ] Columns
-- [ ] Primary keys
-- [ ] Foreign keys
-
-### SQLAlchemy 2.x Style
-
-- [ ] `Mapped`
-- [ ] `mapped_column`
-- [ ] Type annotations
-- [ ] Modern declarative syntax
+- [ ] CRUD Operations
+- [ ] `order_by`
+- [ ] `group_by`
+- [ ] SQL Joins
+- [ ] Raw SQL
 
 ---
 
-## SECTION 8: ASYNC SQLALCHEMY
+## PHASE 09 — SQLALCHEMY ORM
 
-### HIGHEST PRIORITY
+### 13. SQLAlchemy ORM
 
-- [ ] Async engine
-- [ ] `create_async_engine`
-- [ ] `AsyncSession`
-- [ ] `async_sessionmaker`
-- [ ] Session lifecycle
-- [ ] Database dependency
-- [ ] Async CRUD
-- [ ] `commit()`
-- [ ] `rollback()`
-- [ ] `refresh()`
-- [ ] Closing sessions
-
-### Practice
-
-- [ ] Async Create
-- [ ] Async Read
-- [ ] Async Update
-- [ ] Async Delete
+- [ ] Install & Configure SQLAlchemy ORM
+- [ ] Create ORM Models
+- [ ] ORM Relationships
+- [ ] ORM CRUD Operations
 
 ---
 
-## SECTION 9: CRUD OPERATIONS
+## PHASE 10 — DATABASE MIGRATIONS
 
-### MASTER THIS
+### 14. Alembic
 
-### Create
-
-- [ ] Create ORM object
-- [ ] `session.add()`
-- [ ] `commit()`
-- [ ] `refresh()`
-
-### Read
-
-- [ ] `select()`
-- [ ] `where()`
-- [ ] `execute()`
-- [ ] `scalar_one_or_none()`
-- [ ] `scalars()`
-
-### Update
-
-- [ ] Find record
-- [ ] Update fields
-- [ ] Partial updates
-- [ ] Commit changes
-- [ ] Refresh object
-
-### Delete
-
-- [ ] Find record
-- [ ] `session.delete()`
-- [ ] Commit
+- [ ] Install & Configure Alembic
+- [ ] Create Tables Using Migrations
+- [ ] Alembic Upgrade
+- [ ] Alembic Downgrade
+- [ ] Adding Constraints
+- [ ] Auto-Generate Migrations
+- [ ] Migration History
 
 ---
 
-## SECTION 10: SQLALCHEMY QUERIES
+## PHASE 11 — ASYNC SQLALCHEMY
 
-### IMPORTANT
+### 15. Async SQLAlchemy Core
 
-- [ ] `select()`
-- [ ] `where()`
-- [ ] Multiple conditions
-- [ ] `and_()`
-- [ ] `or_()`
-- [ ] Ordering
-- [ ] `order_by()`
-- [ ] Limiting
-- [ ] `limit()`
-- [ ] Offsets
-- [ ] `offset()`
-- [ ] Filtering
+- [ ] Async SQLAlchemy Core
+- [ ] Async SQLAlchemy Core with Alembic
 
-### Learn Core Query Constructs
+### 16. Async SQLAlchemy ORM
 
-- [ ] `select()`
-- [ ] `update()`
-- [ ] `delete()`
-- [ ] `insert()` concept
+- [ ] Async SQLAlchemy ORM
+- [ ] Async SQLAlchemy ORM with Alembic
 
 ---
 
-## SECTION 11: SQLALCHEMY RELATIONSHIPS
+## PHASE 12 — FASTAPI + DATABASE
 
-### MASTER DEEPLY
+### 17. FastAPI with Sync SQLAlchemy
 
-### One-to-One
+- [ ] Setup FastAPI with Sync SQLAlchemy
+- [ ] Configure Alembic
+- [ ] Create Models
+- [ ] Insert Data
+- [ ] Fetch Data
 
-- [ ] Foreign key
-- [ ] `relationship()`
-- [ ] `back_populates`
+### 18. FastAPI with Async SQLAlchemy
 
-### One-to-Many
-
-- [ ] Parent model
-- [ ] Child model
-- [ ] Foreign key
-- [ ] `back_populates`
-
-### Many-to-Many
-
-- [ ] Association table
-- [ ] Relationship configuration
-
-### Important Concepts
-
-- [ ] Lazy loading
-- [ ] Eager loading
-- [ ] Joins
-- [ ] Cascades
+- [ ] Setup FastAPI with Async SQLAlchemy
+- [ ] Configure Alembic
+- [ ] Create Models
+- [ ] Insert Data
+- [ ] Fetch Data
 
 ---
 
-## SECTION 12: ALEMBIC DATABASE MIGRATIONS
+## PHASE 13 — PROJECT: FASTNOTES
 
-### DO NOT SKIP
+### 19. Fastnotes
 
-- [ ] What are migrations?
-- [ ] Initialize Alembic
-- [ ] Configure database URL
-- [ ] Configure metadata
-- [ ] Create migration
-- [ ] `--autogenerate`
-- [ ] Upgrade database
-- [ ] Downgrade migration
-- [ ] Add a column
-- [ ] Modify a model
-- [ ] Relationship migrations
+- [ ] Fastnotes V1
+- [ ] Fastnotes V2
+- [ ] Fastnotes V3
 
 ---
 
-## SECTION 13: POSTGRESQL
+## PHASE 14 — SQLMODEL
 
-### IMPORTANT
+### 20. SQLModel Fundamentals
 
-- [ ] PostgreSQL setup
-- [ ] Database creation
-- [ ] Connection URL
-- [ ] Environment variables
-- [ ] PostgreSQL with SQLAlchemy
-- [ ] PostgreSQL with Async SQLAlchemy
-- [ ] Production database concepts
-
----
-
-## SECTION 14: AUTHENTICATION
-
-### MASTER
-
-- [ ] User registration
-- [ ] Login
-- [ ] Password hashing
-- [ ] Secure password storage
-- [ ] Authentication flow
-- [ ] Login endpoint
-- [ ] Invalid credentials handling
-
-### Never Do
-
-- [ ] ❌ Store plain passwords
-- [ ] ❌ Return password hashes
-- [ ] ❌ Trust client-side authentication
-
----
-
-## SECTION 15: JWT AUTHENTICATION
-
-### MASTER
-
-- [ ] What is JWT?
-- [ ] JWT structure
-- [ ] Access token
-- [ ] Token expiration
-- [ ] Token verification
-- [ ] Protected endpoints
-- [ ] Current user
-
-### Later
-
-- [ ] Refresh tokens
-- [ ] Token rotation
-- [ ] Token revocation concepts
-
----
-
-## SECTION 16: AUTHORIZATION & RBAC
-
-### IMPORTANT
-
-- [ ] Authentication vs Authorization
-- [ ] Roles
-- [ ] Permissions
-- [ ] RBAC
-- [ ] Admin routes
-- [ ] User routes
-- [ ] Role dependencies
-
----
-
-## SECTION 17: MIDDLEWARE & CORS
-
-### IMPORTANT
-
-- [ ] What is middleware?
-- [ ] Request lifecycle
-- [ ] Response lifecycle
-- [ ] Custom middleware
-- [ ] CORS
-- [ ] Security middleware concepts
-
----
-
-## SECTION 18: FILE UPLOADS
-
-### IMPORTANT
-
-- [ ] `UploadFile`
-- [ ] `File`
-- [ ] Multiple files
-- [ ] File validation
-- [ ] File types
-- [ ] File size concepts
-
-### Later
-
-- [ ] S3
-- [ ] Cloudflare R2
-- [ ] Cloud storage architecture
-
----
-
-## SECTION 19: BACKGROUND TASKS
-
-### IMPORTANT
-
-- [ ] FastAPI `BackgroundTasks`
-- [ ] When to use background tasks
-- [ ] Email sending
-- [ ] Simple async tasks
-- [ ] Limitations
-
-### Learn Later
-
-- [ ] Celery
-- [ ] Redis Queue
-- [ ] Distributed workers
-
----
-
-## SECTION 20: TESTING
-
-### DO NOT SKIP
-
-- [ ] Why testing matters
-- [ ] Pytest basics
-- [ ] Unit tests
-- [ ] API tests
-- [ ] Test database
-- [ ] Dependency overrides
-- [ ] Authentication tests
-- [ ] Error tests
-
-### Practice
-
-Test:
-
-- [ ] User registration
-- [ ] Login
-- [ ] Create resource
-- [ ] Unauthorized request
-- [ ] Validation errors
-
----
-
-## SECTION 21: DOCKER
-
-### VERY IMPORTANT
-
-- [ ] What is Docker?
-- [ ] Images
-- [ ] Containers
-- [ ] Dockerfile
-- [ ] Build application image
-- [ ] Environment variables
-- [ ] Docker Compose
-- [ ] FastAPI container
-- [ ] PostgreSQL container
-- [ ] Networking
-- [ ] Volumes
-
----
-
-## SECTION 22: APPLICATION CONFIGURATION
-
-### IMPORTANT
-
-- [ ] Environment variables
-- [ ] `.env`
-- [ ] Settings management
-- [ ] Development configuration
-- [ ] Production configuration
-- [ ] Secret management concepts
-
-### Never Commit
-
-- [ ] ❌ `.env`
-- [ ] ❌ Database passwords
-- [ ] ❌ API keys
-- [ ] ❌ JWT secrets
-
----
-
-## SECTION 23: LOGGING & DEBUGGING
-
-### IMPORTANT
-
-- [ ] Python logging basics
-- [ ] Application logs
-- [ ] Error logs
-- [ ] Request logging
-- [ ] Debugging production errors
-
----
-
-## SECTION 24: DEPLOYMENT
-
-### IMPORTANT
-
-- [ ] Production environment
-- [ ] Environment variables
-- [ ] Docker deployment
-- [ ] Database deployment
-- [ ] Running migrations
-- [ ] Application logs
-- [ ] Production debugging
-
----
-
-## OPTIONAL SECTION: WEBSOCKETS
-
-### Learn Later
-
-- [ ] WebSocket fundamentals
-- [ ] Connections
-- [ ] Sending messages
-- [ ] Receiving messages
-- [ ] Connection manager
-
-### When Needed
-
-Learn deeply when building:
-
-```text
-Chat Application
-Notifications
-Live Dashboard
-Real-time Collaboration
-```
-
----
-
-## OPTIONAL SECTION: ADVANCED SQLALCHEMY CORE
-
-### Learn Later
-
-- [ ] Advanced Core expressions
-- [ ] Complex raw SQL
-- [ ] Advanced bulk operations
-- [ ] Deep query optimization
-
-> Learn **ORM deeply first**.
-
----
-
-## OPTIONAL SECTION: FRONTEND
-
-### SKIP / QUICK REVIEW
-
-You already know:
-
-- [x] JavaScript
-- [x] TypeScript
-- [x] React
-- [x] Next.js
-
-So skip repetitive:
-
-- [ ] ❌ Basic HTML
-- [ ] ❌ Basic CSS
-- [ ] ❌ Basic JavaScript
-- [ ] ❌ Basic React tutorials
-
-Use your existing frontend skills to connect with FastAPI.
-
----
-
-## OPTIONAL SECTION: GENERIC PYTHON BASICS
-
-### QUICK REVIEW ONLY
-
-- [ ] Variables
-- [ ] Strings
-- [ ] Lists
-- [ ] Loops
-- [ ] Basic functions
-
-### Don't Skip If Weak
-
-- [ ] Type hints
-- [ ] Classes
-- [ ] Exceptions
-- [ ] Async programming
-- [ ] Context managers
-
----`
-
-## Tech to Know
-
-- [ ] FastAPI
-- [ ] PostgreSQL
-- [ ] Async SQLAlchemy
-- [ ] Alembic
-- [ ] Professional folder structure
-- [ ] JWT Authentication
-- [ ] Refresh tokens
-- [ ] RBAC
-- [ ] CRUD
+- [ ] Install SQLModel
+- [ ] Create Database Engine
+- [ ] Create Models
+- [ ] Database Operations
 - [ ] Relationships
+- [ ] Relationship Attributes
+- [ ] Cascade Operations
+
+### 21. SQLModel with FastAPI
+
+- [ ] Configure SQLModel with FastAPI
+- [ ] Create Models
+- [ ] Database Operations
+
+---
+
+## PHASE 15 — PROJECT: TASKKARO
+
+### 22. Taskkaro
+
+- [ ] Taskkaro V1
+- [ ] Taskkaro V2
+- [ ] Taskkaro V3
+
+---
+
+## PHASE 16 — MIDDLEWARE
+
+### 23. Middleware
+
+- [ ] Introduction to Middleware
+- [ ] Create Custom Middleware
+- [ ] Multiple Middleware
+- [ ] Middleware Execution Order
+- [ ] Separate Middleware Files
+- [ ] Path-Specific Middleware
+- [ ] Built-In Middleware
+- [ ] ASGI Middleware
+
+---
+
+## PHASE 17 — API ROUTERS
+
+### 24. APIRouter
+
+- [ ] Create API Routers
+- [ ] Route Tags
+- [ ] Route Prefixes
+
+---
+
+## PHASE 18 — DEPENDENCY INJECTION
+
+### 25. Dependencies
+
+- [ ] Create Dependencies
+- [ ] Use Dependency Injection
+- [ ] Sync Dependencies
+- [ ] Async Dependencies
+- [ ] Hierarchical Dependencies
+- [ ] Dependency Classes
+- [ ] Dependencies in Path Operations
+- [ ] Group Dependencies
+- [ ] Global Dependencies
+- [ ] Dependencies with `yield`
+
+---
+
+## PHASE 19 — BACKGROUND TASKS
+
+### 26. Background Tasks
+
+- [ ] Create Background Tasks
+- [ ] Add Background Tasks
+- [ ] Upload Files in Background
+
+---
+
+## PHASE 20 — WEBSOCKETS
+
+### 27. WebSockets
+
+- [ ] Introduction to WebSockets
+- [ ] Create WebSocket Connection
+- [ ] Single Client
+- [ ] Handle Client Disconnection
+- [ ] WebSockets with Dependencies
+- [ ] Multiple Clients
+
+---
+
+## PHASE 21 — STATIC FILES
+
+### 28. Static Files
+
+- [ ] Introduction to Static Files
+- [ ] Mounting
+- [ ] Serve Static Files
+
+---
+
+## PHASE 22 — FRONTEND INTEGRATION
+
+### 29. FastAPI Integrations
+
+- [ ] Create Simple API
+- [ ] Jinja2 Integration
+- [ ] HTMX Integration
+- [ ] React Integration
+- [ ] Next.js Integration
+- [ ] Vue Integration
+- [ ] Nuxt Integration
+
+---
+
+## PHASE 23 — ENVIRONMENT CONFIGURATION
+
+### 30. Environment Variables
+
+- [ ] `python-dotenv`
+- [ ] `python-decouple`
+- [ ] Environment-Based Configuration
+
+---
+
+## PHASE 24 — AUTHENTICATION & AUTHORIZATION
+
+### 31. Authentication System
+
+- [ ] Authentication Project Setup
+- [ ] Configure Database
+- [ ] Create User Models
+- [ ] User Registration
+- [ ] Password Hashing
+- [ ] User Login
+- [ ] JWT Token Generation
+- [ ] Refresh Tokens
+- [ ] Get Current User
+- [ ] Email Verification
+- [ ] Change Password
+- [ ] Reset Password
+- [ ] Admin Roles
+- [ ] Logout
+- [ ] Async Authentication with SQLAlchemy
+
+---
+
+## PHASE 25 — DATABASE INTEGRATIONS
+
+### 32. MySQL
+
+- [ ] Install MySQL
+- [ ] Connect FastAPI to MySQL
+
+### 33. PostgreSQL
+
+- [ ] Install PostgreSQL
+- [ ] Connect FastAPI to PostgreSQL
+
+### 34. MongoDB
+
+- [ ] Introduction to ODM
+- [ ] Install MongoDB
+- [ ] Enable MongoDB Authentication
+- [ ] Create MongoDB Admin User
+- [ ] Connect FastAPI to MongoDB
+- [ ] MongoDB CRUD Operations
+
+---
+
+## PHASE 26 — API MONETIZATION
+
+### 35. API Business & Monetization
+
+- [ ] Software Development Life Cycle (SDLC)
+- [ ] Project Setup
+- [ ] Models & Schemas
+- [ ] Generate API Keys
+- [ ] Get User API Keys
+- [ ] Credit-Based System
+- [ ] Buy Credits
+- [ ] Conversion & Credit Management
+
+---
+
+## PHASE 27 — TESTING
+
+### 36. Pytest
+
+- [ ] Pytest Sync Crash Course
+- [ ] Pytest Async Crash Course
+- [ ] Code Coverage
+- [ ] Testing Configuration
+- [ ] Unit Testing
+- [ ] Integration Testing
+- [ ] Generate Test Reports
+
+---
+
+## PHASE 28 — DOCKER
+
+### 37. Docker & Dev Containers
+
+- [ ] Introduction to Docker
+- [ ] Install Docker
+- [ ] FastAPI Docker Development Setup
+- [ ] Live Code Editing in Docker
+- [ ] Introduction to Dev Containers
+- [ ] Setup Dev Container with FastAPI & Docker
+
+---
+
+## PHASE 29 — DIGITALOCEAN OBJECT STORAGE
+
+### 38. Object Storage
+
+- [ ] Create DigitalOcean Account
+- [ ] Create Object Storage
+- [ ] Create Access Keys
+- [ ] Upload Files to Object Storage
+- [ ] Make Uploaded Files Private
+
+---
+
+## PHASE 30 — VPS & SERVER MANAGEMENT
+
+### 39. VPS Setup
+
+- [ ] Buy a VPS
+- [ ] Buy a Domain
+- [ ] Server Dashboard Overview
+- [ ] SSH into VPS
+- [ ] Create Sudo User
+- [ ] Configure Firewall
+- [ ] Install Server Stack
+- [ ] Secure MySQL
+- [ ] Create Server Snapshot
+- [ ] Point Domain to VPS
+- [ ] Install Node.js
+
+---
+
+## PHASE 31 — GIT & GITHUB
+
+### 40. Git & GitHub
+
+- [ ] Install Git
+- [ ] Create GitHub Account
+- [ ] Git Crash Course
+- [ ] GitHub Workflow
+- [ ] VS Code Git Integration
+
+---
+
+## PHASE 32 — VPS DEPLOYMENT
+
+### 41. FastAPI Deployment
+
+- [ ] Deploy FastAPI to VPS via GitHub
+- [ ] Configure SSL Certificate
+- [ ] Enable HTTPS
+- [ ] Deploy FastAPI + MySQL + Alembic
+- [ ] Create Subdomain
+- [ ] Deploy React + FastAPI Application
+- [ ] Disable FastAPI Documentation in Production
+
+---
+
+## PHASE 33 — AWS DEPLOYMENT
+
+### 42. AWS EC2
+
+- [ ] Introduction to AWS
+- [ ] Create AWS Free Account
+- [ ] Launch EC2 Instance
+- [ ] Configure Security Groups
+- [ ] SSH into EC2
+- [ ] Install Server Stack
+- [ ] Point Domain to EC2
+- [ ] Deploy FastAPI via GitHub
+- [ ] Delete EC2 Resources
+
+---
+
+## PHASE 34 — DOCKER DEPLOYMENT
+
+### 43. Production Docker Deployment
+
+- [ ] Install Docker on VPS
+- [ ] Deploy FastAPI with Docker
+- [ ] Configure HTTPS & SSL
+- [ ] Deploy FastAPI + MySQL + Alembic
+- [ ] Deploy React + FastAPI with Docker
+- [ ] Clean Up Cloud Resources
+
+---
+
+## PHASE 35 — POSTMAN
+
+### 44. API Testing with Postman
+
+- [ ] Install Postman
+- [ ] Postman Crash Course
+- [ ] Test FastAPI APIs
+
+---
+
+## PHASE 36 — LOGGING
+
+### 45. Logging & Error Monitoring
+
+- [ ] Introduction to Logging
+- [ ] FastAPI Logging
+- [ ] Global Exception Handler
+- [ ] Logging Exceptions
+
+---
+
+## PHASE 37 — CAPSTONE PROJECT
+
+### Full-Stack E-Commerce Application
+
+#### 46. Project Planning
+
+- [ ] Project Overview
+- [ ] Backend SRS
+- [ ] ERD
+- [ ] Download & Run Project Source Code
+- [ ] Backend Project Setup
+
+---
+
+### Database Setup
+
+- [ ] Setup MySQL
+- [ ] Configure SQLAlchemy
+- [ ] Configure Alembic
+- [ ] Create Database Models
+- [ ] Create User Model
+- [ ] Create Refresh Token Model
+
+---
+
+### Authentication
+
+- [ ] User Registration
+- [ ] Password Hashing
+- [ ] User Login
+- [ ] Access Token
+- [ ] Refresh Token
+- [ ] HTTPOnly Cookies
+- [ ] Check Authentication
+- [ ] Get Current User
+- [ ] Email Verification
+- [ ] Change Password
+- [ ] Password Reset
+- [ ] Admin Access
+- [ ] Logout
+
+---
+
+### Categories
+
+- [ ] Create Category Model
+- [ ] Create Category API
+- [ ] Fetch All Categories
+- [ ] Delete Category
+
+---
+
+### Products
+
+- [ ] Create Product Model
+- [ ] Create Product API
+- [ ] Upload Product Files
+- [ ] Fetch Products
 - [ ] Pagination
-- [ ] Filtering
-- [ ] Search
-- [ ] Error handling
-- [ ] Pytest
-- [ ] Docker
-- [ ] Environment variables
-- [ ] Logging
-- [ ] Deployment
+- [ ] Fetch Product by Slug
+- [ ] Search Products
+- [ ] Update Products
+- [ ] Admin-Only Product Management
+- [ ] Delete Products
+- [ ] Fix Route Order Issues
+
+---
+
+### Shopping Cart
+
+- [ ] Create Cart Model
+- [ ] Add Items to Cart
+- [ ] List User Cart
+- [ ] Increase Cart Quantity
+- [ ] Decrease Cart Quantity
+- [ ] Remove Cart Items
+
+---
+
+### Shipping Addresses
+
+- [ ] Create Shipping Address Model
+- [ ] Create Address
+- [ ] List User Addresses
+- [ ] Get Address by ID
+- [ ] Update Address
+- [ ] Delete Address
+
+---
+
+### Orders
+
+- [ ] Create Order Model
+- [ ] Create Order Item Model
+- [ ] Create Shipping Status Model
+- [ ] Create Payment Model
+- [ ] Checkout API
+- [ ] List User Orders
+- [ ] Get Single Order
+- [ ] Cancel Orders
+
+---
+
+### Shipping & Payment Status
+
+- [ ] Get Shipping Status
+- [ ] Update Shipping Status
+- [ ] Admin Shipping Management
+- [ ] Get Payment Status
+- [ ] List Payment History
+
+---
+
+## FRONTEND — NEXT.JS
+
+### 47. Frontend Setup
+
+- [ ] Next.js Project Setup
+- [ ] Hero Section
+- [ ] Navbar
+- [ ] Footer
+
+---
+
+### Product Features
+
+- [ ] Show Products by Category
+- [ ] Configure CORS
+- [ ] Configure Static Files
+- [ ] List All Products
+- [ ] Search Products
+- [ ] Pagination
+- [ ] Product Detail Page
+
+---
+
+### Frontend Authentication
+
+- [ ] Axios Interceptors
+- [ ] Refresh Tokens
+- [ ] Authentication Context
+- [ ] Protected Routes
+- [ ] Admin Routes
+- [ ] User Registration
+- [ ] User Login
+- [ ] Conditional Navigation
+
+---
+
+### Cart & Checkout
+
+- [ ] Add to Cart
+- [ ] Shopping Cart
+- [ ] User Dashboard
+- [ ] User Sidebar
+- [ ] Add Address
+- [ ] Show Addresses
+- [ ] Delete Address
+- [ ] Update Address
+- [ ] Checkout
+- [ ] Mock Payment Gateway
+
+---
+
+### Orders & Payments
+
+- [ ] List Orders
+- [ ] Cancel Orders
+- [ ] Payment History
+- [ ] Handle Payment Failure
+
+---
+
+###  Admin Dashboard
+
+- [ ] Admin Dashboard
+- [ ] List All Orders
+- [ ] Update Shipping Status
+- [ ] Fix Payment Issues
+- [ ] Create Products
+- [ ] List Products
+- [ ] Delete Products
+- [ ] Update Products
+- [ ] Create Categories
+- [ ] Delete Categories
+- [ ] Fix Application Bugs
+
+---
+
+## PAYMENT INTEGRATION
+
+### 48. Razorpay Payment Gateway
+
+- [ ] Download Project with Payment Gateway
+- [ ] Razorpay Integration
+- [ ] Handle Payment Failure
+
+---
+
+## EMAIL SYSTEM
+
+### 49. Email Integration
+
+- [ ] Create Mailtrap Account
+- [ ] Generate API Key
+- [ ] Email Sending Function
+- [ ] Email Verification Emails
+- [ ] Password Reset Emails
+- [ ] Change Password Workflow
+
+---
+
+## CLOUD STORAGE
+
+### 50. Media Storage
+
+- [ ] Upload Media Files
+- [ ] Configure Cloud Storage
+
+---
+
+## BONUS / ADVANCED TOPICS
+
+### 51. Advanced FastAPI & Tools
+
+- [ ] Miscellaneous Materials
+- [ ] SQLAlchemy Lazy Loading Strategies
+- [ ] Working with `uv`
+- [ ] `uv` + FastAPI + PostgreSQL + Docker
+- [ ] `uvx fastapi-new`
+- [ ] Modern FastAPI Project Creation
