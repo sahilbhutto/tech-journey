@@ -230,14 +230,14 @@
 
 ### 23. Middleware
 
-- [ ] Introduction to Middleware
-- [ ] Create Custom Middleware
-- [ ] Multiple Middleware
-- [ ] Middleware Execution Order
-- [ ] Separate Middleware Files
-- [ ] Path-Specific Middleware
-- [ ] Built-In Middleware
-- [ ] ASGI Middleware
+- [X] Introduction to Middleware
+- [X] Create Custom Middleware
+- [X] Multiple Middleware
+- [X] Middleware Execution Order
+- [X] Separate Middleware Files
+- [X] Path-Specific Middleware
+- [X] Built-In Middleware
+- [X] ASGI Middleware
 
 ---
 
