@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Category Management</title>
+
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Page Header -->
+        <header class="page-header">
+            <div>
+                <span class="eyebrow">INVENTORY MANAGEMENT</span>
+                <h1>Categories</h1>
+                <p>Manage and organize your product categories.</p>
+            </div>
+
+            <div class="category-count">
+                <span>{{ categories|length }}</span>
+                <small>Total Categories</small>
+            </div>
+        </header>
+
+
+        <!-- Create Category -->
+        <section class="form-card">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Create Category</h2>
+                    <p>Add a new category to your inventory.</p>
+                </div>
+                <span class="form-icon">＋</span>
+            </div>
+
+            <form action="/api/v1/categories" method="POST">
+
+                <div class="form-group">
+                    <label for="name">Category Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="e.g. Electronics"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea
+                        id="description"
+                        name="description"
+                        rows="3"
+                        placeholder="Write a short category description..."
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Create Category
+                    <span>→</span>
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Categories Table -->
+        <section class="table-card">
+
+            <div class="section-heading table-heading">
+                <div>
+                    <h2>All Categories</h2>
+                    <p>Overview of your existing categories.</p>
+                </div>
+            </div>
+
+            <div class="table-wrapper">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Category Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        {% for category in categories %}
+
+                        <tr>
+                            <td class="id-cell">{{ loop.index }}</td>
+
+                            <td>
+                                <div class="category-name">
+
+                                    <strong>{{ category.name }}</strong>
+                                </div>
+                            </td>
+
+                            <td class="description-cell">
+                                {{ category.description or 'No description provided' }}
+                            </td>
+                        </tr>
+
+                        {% else %}
+
+                        <tr>
+                            <td colspan="3">
+                                <div class="empty-state">
+                                    <div class="empty-icon">▤</div>
+                                    <h3>No categories yet</h3>
+                                    <p>Create your first category using the form above.</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </section>
+
+        <footer>
+            Category Management <span>·</span> Powered by FastAPI
+        </footer>
+
+    </main>
+
+</body>
+</html>
